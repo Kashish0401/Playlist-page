@@ -1,0 +1,18 @@
+.Heading-1 {
+    font-size: 2.25rem;
+    line-height: 2.25rem;
+    margin-bottom: .5rem;
+    font-weight: 500;
+    overflow: hidden;
+}
+
+.SubHeading {
+    line-height: 1.5rem;
+    font-weight: 500;
+    font-size: 0.875rem;
+}
+
+.Details {
+    font-size: .75rem;
+    font-weight: 400;
+}

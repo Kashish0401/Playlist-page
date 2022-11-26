@@ -1,0 +1,46 @@
+.SongBlock {
+    display: flex;
+    padding: .5rem;
+    border-color: transparent;
+    border-width: 1px;
+    border-radius: .5rem;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    width: 100%
+}
+
+.Song-image{
+    width:3.5rem;
+    height: 3.5rem;
+    position: relative;
+    border-radius: .5rem;
+}
+
+.Song-title{
+    width: 100%;
+    display: flex;
+    cursor: pointer;
+}
+
+.Song-text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+}
+
+.Song-artist{
+    font-size: .75rem;
+    line-height:1rem;
+}
+
+.Song-title{
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.SongBlock:hover{
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+}
