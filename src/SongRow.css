@@ -66,10 +66,12 @@
 .icon-1{
     background-color: transparent;
     border: none;
+    cursor: pointer;
 }
 
 .icon-2{
     margin-left: 1.25rem;
     background-color: transparent;
     border: none;
+    cursor: pointer;
 }
