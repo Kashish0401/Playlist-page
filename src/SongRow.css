@@ -1,3 +1,13 @@
+:any-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.SongRow {
+    position: relative;
+    top: 1.5rem
+}
+
 .SongBlock {
     display: flex;
     padding: .5rem;
@@ -10,37 +20,56 @@
     width: 100%
 }
 
-.Song-image{
-    width:3.5rem;
+.Song-image {
+    width: 3.5rem;
     height: 3.5rem;
     position: relative;
     border-radius: .5rem;
 }
 
-.Song-title{
+.Song-title {
     width: 100%;
     display: flex;
     cursor: pointer;
 }
 
-.Song-text{
+.Song-text {
     display: flex;
     flex-direction: column;
     margin-left: 1rem;
 }
 
-.Song-artist{
+.Song-artist {
     font-size: .75rem;
-    line-height:1rem;
+    line-height: 1rem;
 }
 
-.Song-title{
+.Song-title {
     font-size: 1rem;
     line-height: 1.5rem;
 }
 
-.SongBlock:hover{
+.SongBlock:hover {
     border-color: black;
     border-width: 1px;
     border-style: solid;
+}
+
+.Side-icons{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.icon-1{
+    background-color: transparent;
+    border: none;
+}
+
+.icon-2{
+    margin-left: 1.25rem;
+    background-color: transparent;
+    border: none;
 }
